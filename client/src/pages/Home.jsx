@@ -1,3 +1,7 @@
-export default function Explore() {
-  return <div>Explore</div>
+import Navbar from "../components/layout/Navbar";
+
+export default function Home() {
+  return (
+    <Navbar />
+  )
 }
