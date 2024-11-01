@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         orange: "#DF6951",
+        primary: "#DF6951",
       },
     },
   },
