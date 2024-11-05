@@ -3,6 +3,7 @@ export default {
   darkMode: ['class'],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+<<<<<<< HEAD
   	extend: {
   		borderRadius: {
   			lg: 'var(--radius)',
@@ -55,6 +56,19 @@ export default {
   			}
   		}
   	}
+=======
+    extend: {
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)',
+      },
+      colors: {
+        orange: "#DF6951",
+        primary: "#DF6951",
+      },
+    },
+>>>>>>> ab721121924249e95d79b762121837315a029d9c
   },
   plugins: [require('tailwindcss-animate')],
 }
