@@ -58,7 +58,9 @@
     --chart-5: 340 75% 55%;
   }
 }
-
+/* * {
+  border: 1px solid red
+} */
 body {
   font-family: "Volkhov", serif;
   background-color: #f9f9f9;
