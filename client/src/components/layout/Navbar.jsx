@@ -87,7 +87,7 @@ const Navbar = () => {
           </button>
         </div>
         {isOpen && (
-          <div className="sm:hidden  bg-white/20  backdrop-blur-lg ">
+          <div className="sm:hidden  bg-white/20  backdrop-blur-3xl ">
             <Link to="/" className="block text-white hover:bg-orange hover:text-white px-3 py-2 rounded-md text-base font-medium">
               Home
             </Link>

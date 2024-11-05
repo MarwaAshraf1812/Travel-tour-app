@@ -1,5 +1,5 @@
 import { useState } from 'react';
-function BuildPackageForm({ Close }) {
+function BuildPackageForm( Props ) {
 const [destin, setDestin] = useState([{ id: 1, value: '' }]);
 const [date, setDate] = useState({ start: '', end: '' });
 const [adults, setAdults] = useState(2);
@@ -36,7 +36,7 @@ const SubmitFun = () => {
 return (
     <div className="relative  bg-white p-4 sm:p-6 rounded-lg shadow-lg max-w-full sm:max-w-md inset-0 w-full mx-auto  max-h-[75vh] overflow-y-auto">
     {/* Close button */}
-    <button onClick={Close} className="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+    <button onClick={Props.Close} className="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
         ✕
     </button>
     <h2 className="text-lg sm:text-2xl font-bold mb-4 text-center text-gray-800">Build Your Own Package</h2>
