@@ -16,7 +16,6 @@ export default function Home() {
         <Promotion/>
         <Explore />
         <Testmonial/>
-        <Footer />
     </>
     
   )
