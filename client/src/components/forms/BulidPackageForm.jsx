@@ -48,7 +48,7 @@ return (
         />
     ))}
     {/* Add Destinations button */}
-    <button onClick={addFun} className="text-sm text-primary underline mb-4">+ Add destination</button>
+    <button onClick={addFun} className="text-sm text-orange underline mb-4">+ Add destination</button>
     <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 mb-4">
         {/* Date Range */}
         <input type="text" placeholder="Start Date" value={date.start} onChange={(e) => DateFun('startDate', e.target.value)} className="w-full p-2 sm:p-3 border border-gray-300 rounded text-black"/>
@@ -71,7 +71,7 @@ return (
             <label key={e} className="flex items-center space-x-2">
             <input type="checkbox" checked={setBoxs[e]}
                 onChange={() => BoxFun(e)}
-                className="form-checkbox text-primary"
+                className="form-checkbox text-orange"
             />
             <span className="text-sm text-gray-700">
                 {e.charAt(0).toUpperCase() + e.slice(1)}
@@ -81,7 +81,7 @@ return (
         </div>
     </div>
     {/* Submit button */}
-    <button onClick={SubmitFun} className="w-full py-2 sm:py-3 bg-primary text-white rounded font-semibold mt-4 hover:bg-orange-600">
+    <button onClick={SubmitFun} className="w-full py-2 sm:py-3 bg-orange text-white rounded font-semibold mt-4 hover:bg-orange-600">
         Build Package
     </button>
     </div>

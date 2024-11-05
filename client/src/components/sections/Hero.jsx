@@ -65,7 +65,7 @@ function Hero() {
             <button onClick={ShowFun} className="bg-transparent text-white px-4 py-2 focus:outline-none mb-2 sm:mb-0">
               Duration
             </button>
-            <button className="bg-primary text-white py-2 px-6 rounded-lg font-semibold hover:bg-secondary transition-colors duration-300">
+            <button className="bg-orange text-white py-2 px-6 rounded-lg font-semibold hover:bg-secondary transition-colors duration-300">
               Submit
             </button>
           </div>
@@ -79,7 +79,7 @@ function Hero() {
             <img src={Ellipse4} alt="User 4" className="w-10 h-10 rounded-full border-1 border-white -ml-2 md:w-8 md:h-8"/>
             <img src={Ellipse5} alt="User 5" className="w-10 h-10 rounded-full border-1 border-white -ml-2 md:w-8 md:h-8"/>
             <img src={Ellipse6} alt="User 6" className="w-10 h-10 rounded-full border-1 border-white -ml-2 md:w-8 md:h-8"/>
-            <div className="w-10 h-10 md:w-8 md:h-8 rounded-full bg-primary flex items-center justify-center text-white font-semibold text-sm -m-2">
+            <div className="w-10 h-10 md:w-8 md:h-8 rounded-full bg-orange flex items-center justify-center text-white font-semibold text-sm -m-2">
               +
             </div>
             <span className="text-white ml-5 text-sm">

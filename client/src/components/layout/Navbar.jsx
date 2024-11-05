@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto p-2 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-white text-2xl"> <span className='text-primary'>T</span>ravel</h1>
+            <h1 className="text-white text-2xl"> <span className='text-orange'>T</span>ravel</h1>
           </div>
           <div className="hidden sm:flex sm:space-x-4">
             <Link
