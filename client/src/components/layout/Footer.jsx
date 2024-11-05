@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h2 className="text-xl font-bold mb-4 text-dark_blue">Travel</h2>
+            <h2 className="text-xl font-bold mb-4 text-dark_blue"><span className='text-orange'>T</span>ravel</h2>
             <p className="mb-4 text-sm text-slate-400">
               Travel is a premium travel agency website template that is perfect for a travel agency website.
             </p>
