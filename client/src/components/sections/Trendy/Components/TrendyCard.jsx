@@ -11,7 +11,7 @@ function TrendyCard({ image,flag,days,people,title,location,price,oldPrice,descr
       <img src={flag} alt="flag" className="absolute top-[10rem] left-0 w-20 h-20 object-cover rounded-full "/>
       <div className="p-4 mt-6">
         <div className="flex items-center text-gray-500 text-sm">
-          <span className="mr-2">📅 {days}</span>
+            <span className="mr-2">📅 {days}</span>
           <span>👥 {people}</span>
         </div>
         <div className="text-left mt-4 mb-4">
@@ -30,7 +30,7 @@ function TrendyCard({ image,flag,days,people,title,location,price,oldPrice,descr
         </div>
         <p className="text-gray-700 text-sm my-2">{description}</p>
         <div className="w-full flex justify-start">
-          <Button className="mt-4 py-2 px-4 bg-orange text-white font-semibold rounded-lg hover:bg-orange-600  hover:text-white transition "variant="outline">Explore Now</Button>
+          <Button className="mt-4 py-2 px-4 bg-orange text-white font-semibold rounded-lg hover:bg-white  hover:text-orange border  hover:border-orange  transition "variant="outline">Explore Now</Button>
         </div>
       </div>
     </div>

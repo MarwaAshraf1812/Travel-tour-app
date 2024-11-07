@@ -18,7 +18,7 @@ function Promotion() {
           internos. Non quis eius quo eligendi corrupti et fugiat nulla qui soluta recusandae in maxime quasi
           aut ducimus illum aut optio quibusdam!
         </p>
-        <Button className="bg-orange text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-md hover:bg-red-600 transition"> View Packages </Button>
+        <Button className="bg-orange text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-md hover:bg-white  hover:text-orange border  hover:border-orange transition"> View Packages </Button>
       </div>
       <div className="flex justify-center items-center xl:w-[63%] xl:top-[10%] lg:w-[55%] lg:absolute md:w-[114%] top-[25%]  right-[-78px] mt-8 lg:mt-0">
         <div className="relative w-full max-w-[100%] sm:max-w-[60%] lg:w-full flex justify-center lg:justify-end">
