@@ -6,6 +6,7 @@ import Explore from "../components/sections/Explore";
 import Promotion from '../components/sections/Promotion'
 import Testmonial from '../components/sections/Testmonial';
 import Category from "../components/sections/Category/Category";
+import Trendy from '../components/sections/Trendy/Trendy';
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
         <Holiday />
         <Promotion/>
         <Explore />
+        <Trendy/>
         <Testmonial/>
         <Footer/>
     </>

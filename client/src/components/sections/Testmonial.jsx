@@ -72,7 +72,7 @@ export default function Testimonial() {
         alt="Travel"
         className="absolute bottom-0 left-0 xl:w-[18rem] md:w-32 hidden md:block"
       />
-      <div className="text-center xl:mb-8 lg:mb-4 lg:mt-4 z-10 py-6 max-[600px]:py-12 max-[600px]:h-32">
+      <div className="text-center xl:mb-8 lg:mb-4 md:mt-7 lg:mt-4 z-10 py-6 max-[600px]:py-12 max-[600px]:h-32">
         <p className="text-orange md:mt-3 tracking-widest font-Volkhov text-lg max-[700px]:text-xl">
           PROMOTION
         </p>
