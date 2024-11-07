@@ -13,6 +13,9 @@ export default {
         orange: '#DF6951',
         dark_blue: '#181E4B',
         input_bg: '#EEEEFF',
+        custom_yellow: "#F0BB1F",
+        custom_blue: "#006380",
+        custom_orange: "#F15A2B",
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

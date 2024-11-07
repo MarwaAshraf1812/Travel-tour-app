@@ -6,6 +6,7 @@ import Explore from "../components/sections/Explore";
 import Promotion from '../components/sections/Promotion'
 import Testmonial from '../components/sections/Testmonial';
 import Category from "../components/sections/Category/Category";
+import Fast from "../components/sections/Fast/Fast";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
     </div>
         <Category />
+        <Fast />
         <Holiday />
         <Promotion/>
         <Explore />
