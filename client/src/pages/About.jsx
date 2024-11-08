@@ -1,3 +1,17 @@
-export default function Explore() {
-  return <div>Explore</div>
+import AboutHero from '../components/aboutSections/AboutHero/AboutHero'
+import Footer from '../components/layout/Footer'
+import Navbar from '../components/layout/Navbar'
+import Testmonial from '../components/sections/Testmonial';
+
+export default function About() {
+  return (
+    <>
+      <Navbar />
+      <div>
+        <AboutHero />
+        <Testmonial />
+      </div>
+      <Footer />
+    </>
+  )
 }
