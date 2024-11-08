@@ -49,7 +49,7 @@ export default function Fast() {
             </div>
           </div>
 
-          <div className="flex-1 relative w-full py-24 transform hover:scale-105">
+          <div className="flex-1 relative w-full py-24 transform hover:scale-105 transition-all ease-in-out duration-100">
             <div className="relative z-10 flex flex-col items-center justify-start h-full mt-12 lg:mt-0">
               <div className="p-8 bg-white rounded-xl shadow-xl max-w-sm mx-auto">
                 <img
