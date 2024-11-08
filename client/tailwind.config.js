@@ -4,6 +4,14 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'conic-gradient-1': 'conic-gradient(#8437FF 20%, #10E7FF 70%, transparent 30%)',
+        'conic-gradient-2': 'conic-gradient( #FF4098 10%, #FFB47D 50%, transparent 20%)',
+        'conic-gradient-3': 'conic-gradient(#7202FF 40%,  transparent 30%)',
+      },
+      boxShadow: {
+        'inner-custom': 'inset 0px 2px 4px rgba(0, 0, 0, 0.4)',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
