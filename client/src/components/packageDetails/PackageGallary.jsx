@@ -1,3 +1,3 @@
-export default function PackageGallary() {
-  return <div>PackageGallary</div>
+export default function PackageGallery() {
+  return <div>Gallery</div>;
 }

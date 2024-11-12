@@ -6,13 +6,13 @@ import Navbar from '../components/layout/Navbar';
 import Testmonial from '../components/sections/Testmonial';
 import Banner from '../components/aboutSections/Banner/Banner';
 import Gallery from '../components/aboutSections/Gallery/Gallery';
-
+import AboutHeroImage from '../assets/AboutHeroImage.png';
 export default function About() {
   return (
     <>
       <Navbar />
       <div>
-        <AboutHero />
+        <AboutHero BigText={'About Us'} smallText={'READ'} image={AboutHeroImage} />
         <Promo />
         <Banner />
         <Trend />
