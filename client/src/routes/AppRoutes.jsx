@@ -2,6 +2,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from '../pages/Home'
 import About from '../pages/About'
+import PackageDetails from '../pages/PackageDetails'
 import App from '../App'
 
 const Router = createBrowserRouter([
@@ -17,6 +18,10 @@ const Router = createBrowserRouter([
     path: '/about',
     element: <About />,
   },
+  {
+    path: '/package/:id',
+    element: <PackageDetails/>,
+  }
 ])
 
 const AppRouters = () => {

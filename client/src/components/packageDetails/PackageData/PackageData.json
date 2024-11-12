@@ -1,0 +1,279 @@
+[
+    {
+        "id": 1,
+        "name": "Switzerland",
+        "Price":"1,000",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti. Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "Zurich, Switzerland",
+        "departure": "Main Square, New City",
+        "departure_time": "Approximately 08:10 AM",
+        "return_time": "Approximately 07:20 PM",
+        "dress_code": "Casual, comfortable and light",
+        "not_included": ["Gallery Ticket", "Lunch"],
+        "included": ["5 star Accommodations", "Airport Transfer", "Breakfast", "Personal Guide"],
+        "info_image": ["img1.png", "img2.png", "img3.png" ,  "img4.png" , "img5.png" , "img6.png"],
+        "plan":[
+            {
+                "day": "01",
+                "title": "Departure",
+                "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.",
+                "details": ["5 Star Accommodation", "Breakfast" , " 5 Star Accommodation "  , "Breakfast"  ]
+
+            },
+            {
+                "day": "02",
+                "title": "Visiting Zurich, Geneva and Zermatt",
+                "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.",
+                "details": ["5 Star Accommodation", "Breakfast" , " 5 Star Accommodation "  , "Breakfast"  ]
+            },
+            {
+                "day": "03",
+                "title": "Rest",
+                "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.",
+                "details": ["5 Star Accommodation", "Breakfast"]
+            },
+            {
+                "day": "04",
+                "title": "Historical Tour",
+                "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet.",
+                "details": ["5 Star Accommodation", "Breakfast" , " 5 Star Accommodation "  , "Breakfast"]
+            },
+            {
+                "day": "05",
+                "title": "Return",
+                "description": "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
+                "details": ["5 Star Accommodation", "Breakfast" ]
+            }
+        ]
+    },
+    {
+        "id":2,
+        "name": "Berlin",
+        "Price":"2,000",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti. Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "Berlin, Germany",
+        "departure": "Alexanderplatz, Berlin",
+        "departure_time": "Approximately 09:00 AM",
+        "return_time": "Approximately 06:00 PM",
+        "dress_code": "Casual, comfortable",
+        "not_included": ["Dinner", "Transportation outside city"],
+        "included": ["Hotel Accommodation", "City Tour", "Breakfast", "Guide"],
+        "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "plan":[
+            {
+                "day": 1,
+                "title": "Arrival and Exploration",
+                "description": "Explore the city, visit historical landmarks and local cafes.",
+                "details":["3 Star Hotel" , "Dinner"]
+            },
+            {
+                "day": 2,
+                "title": "Cultural and Historical Tour",
+                "description": "Visit the Berlin Wall, Museum Island, and Brandenburg Gate.",
+                "details":["3 Star Hotel" , "Breakfast"]
+            },
+            {
+                "day": 3,
+                "title": "Shopping and Relaxing",
+                "description": "Explore local markets and shops in the Mitte district.",
+                "details":["3 Star Hotel" , "Lunch"]
+            },
+            {
+                "day": 4,
+                "title": "Museum Visits",
+                "description": "Tour the Berlin Museum and Pergamon Museum.",
+                "details":["3 Star Hotel" , "Dinner"]
+            },
+            {
+                "day": 5,
+                "title": "Return",
+                "description": "Relax and depart for your return flight.",
+                "details":["3 Star Hotel" , "Breakfast"]
+            }
+        ] 
+    },
+    {
+        "id":3,
+        "name": "Maldives",
+        "Price":"12,000",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti. Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "Maldives",
+        "departure": "Male, Maldives",
+        "departure_time": "Approximately 07:00 AM",
+        "return_time": "Approximately 09:00 PM",
+        "dress_code": "Swimwear, light clothing",
+        "not_included": ["Spa", "Luxury activities"],
+        "included": ["Overwater Villa Accommodation", "All-Inclusive Meals", "Guided Tours"],
+        "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "plan": [
+        {
+            "day":  "01",
+            "title": "Arrival and Beach Relaxation",
+            "description": "Relax on the beach and explore the local area.",
+            "details": ["Overwater Villa","Dinner"]
+        },
+        {
+            "day":  "02",
+            "title": "Water Sports and Snorkeling",
+            "description": "Enjoy water sports activities and snorkeling.",
+            "details": ["Overwater Villa","Breakfast"]
+        },
+        {
+            "day":  "03",
+            "title": "Spa and Wellness",
+            "description": "Indulge in a luxurious spa experience.",
+            "details": ["Overwater Villa","Breakfast"]
+        },
+        {
+            "day": "04",
+            "title": "Island Exploration",
+            "description": "Visit nearby islands and enjoy local cultural activities.",
+            "details": ["Overwater Villa","Breakfast"]
+        },
+        {
+            "day": "05",
+            "title": "Return",
+            "description": "Relax and prepare for your departure.",
+            "details": ["Overwater Villa","Breakfast"]
+        }
+        ]
+    },
+    {
+        "id":4,
+        "name": "Toronto",
+        "Price":"9,000",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "Toronto, Canada",
+        "departure": "Union Station",
+        "departure_time": "Approximately 10:00 AM",
+        "return_time": "Approximately 06:30 PM",
+        "dress_code": "Comfortable walking shoes",
+        "not_included": ["Lunche", "VIP seating"],
+        "included": ["Accommodation", "Tour Guide", "Breakfast", "Group activities"],
+        "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "plan": [
+        {
+            "day": "01",
+            "title": "Arrival and Tour of Downtown Toronto",
+            "description": "Explore the CN Tower, Royal Ontario Museum, and enjoy local cuisine.",
+            "details":["3 Star Hotel","Lunch"] 
+        },
+        {
+            "day": "02",
+            "title": "Explore Toronto Islands",
+            "description": "Take a ferry to the Toronto Islands and relax on the beach.",
+            "details":["3 Star Hotel","Breakfast"]
+        },
+        {
+            "day": "03",
+            "title": "Visit Niagara Falls",
+            "description": "A day trip to Niagara Falls.",
+            "details":["3 Star Hotel","Lunch"]
+        },
+        {
+            "day": "04",
+            "title": "Shopping and Sightseeing",
+            "description": "Explore the Eaton Centre and nearby attractions.",
+            "details":["3 Star Hotel","Breakfast"]
+        },
+        {
+            "day": "05",
+            "title": "Departure",
+            "description": "Relax and depart for your flight back.",
+            "details":["3 Star Hotel","Breakfast"]
+        }
+        ]
+    },
+    {
+        "id":5,
+        "name": "Baku",
+        "Price":"1,000",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "Baku, Azerbaijan",
+        "departure": "Baku Railway Station",
+        "departure_time": "Approximately 11:00 AM",
+        "return_time": "Approximately 05:00 PM",
+        "dress_code": "Casual",
+        "not_included": ["Meals outside package"],
+        "included": ["Accommodation", "City Tours", "Breakfast"],
+        "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "plan": [
+        {
+            "day": "01",
+            "title": "Arrival and City Exploration",
+            "description": "Visit the Flame Towers and enjoy the Baku Boulevard.",
+            "details": ["5 Star Hotel","Dinner"]
+        },
+        {
+            "day": "02",
+            "title": "Cultural Day Tour",
+            "description": "Explore the Palace of the Shirvanshahs and the Baku Old City.",
+            "details": ["5 Star Hotel","Breakfast"]
+        },
+        {
+            "day": "03",
+            "title": "Relaxing Day",
+            "description": "Enjoy a relaxing day at the Caspian Sea.",
+            "details": ["5 Star Hotel","Lunch"]
+        },
+        {
+            "day": "04",
+            "title": "Museum Visits",
+            "description": "Tour the Heydar Aliyev Center and Baku Museum.",
+            "details": ["5 Star Hotel","Dinner"]
+        },
+        {
+            "day": "05",
+            "title": "Return",
+            "description": "Relax before departure.",
+            "details": ["5 Star Hotel","Breakfast"]
+        }
+        ]
+    },
+    {
+        "id" : 6,
+        "name": "Chinese",
+        "Price":"1200",
+        "information": "Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolor similique ut quasi maxime ut deserunt autem At praesentium voluptatem aut libero nisi. Et eligendi sint ab cumque veritatis aut provident aliquam. Aut aspernatur consequuntur eum quaerat distinctio ut inventore aliquid et quasi alias ut rerum suscipit et nihil deleniti.",
+        "destination": "China",
+        "departure": "Beijing Airport",
+        "departure_time": "Approximately 07:00 AM",
+        "return_time": "Approximately 10:00 PM",
+        "dress_code": "Comfortable shoes, light clothing",
+        "not_included": ["VIP Seating"],
+        "included": ["Accommodation", "Tours", "Breakfast"],
+        "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "plan": [
+        {
+            "day": "01",
+            "title": "Arrival and Beijing Exploration",
+            "description": "Visit the Great Wall of China and the Forbidden City.",
+            "details": ["5 Star Hotel","Dinner"]
+        },
+        {
+            "day": "02",
+            "title": "Cultural Day Tour",
+            "description": "Visit the Summer Palace and Temple of Heaven.",
+            "details": ["5 Star Hotel","Breakfast"]
+        },
+        {
+            "day": "03",
+            "title": "Shopping and Street Food",
+            "description": "Explore the local markets and try authentic Chinese street food.",
+            "details": ["5 Star Hotel","Lunch"]
+        },
+        {
+            "day": "04",
+            "title": "Museum Visits",
+            "description": "Tour the National Museum of China and Chinese History Museum.",
+            "details": ["5 Star Hotel","Dinner"]
+        },
+        {
+            "day": "05",
+            "title": "Departure",
+            "description": "Relax and depart for your flight back.",
+            "details": ["5 Star Hotel","Breakfast"]
+        }
+        ]
+    }
+]
