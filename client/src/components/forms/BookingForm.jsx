@@ -25,7 +25,7 @@ export default function BookingForm() {
   };
 
   return (
-    <div className="md:max-w-md h-fit bg-[#EDEDED] p-12  shadow-md">
+    <div className="md:max-w-lg h-fit  bg-[#EDEDED] p-12  shadow-md">
       <h3 className="text-3xl font-bold text-gray-800 mb-2">Book This Tour</h3>
       <p className="text-gray-600 mb-6 text-sm">
         Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt?
@@ -111,18 +111,17 @@ export default function BookingForm() {
         </div>
         <div className='flex flex-col justify-center items-center'>
         <button
-          type="button"
-          className="w-[55%] bg-orange text-white py-3 rounded-md font-semibold hover:bg-orange"
+
+          className="mt-4 py-2 px-4 bg-orange text-white font-semibold rounded-lg hover:bg-white  hover:text-orange border  hover:border-orange  transition w-[55%]"
         >
           Check Availability
         </button>
         <button
           type="submit"
-          className="w-[55%] bg-orange text-white py-3 rounded-md font-semibold mt-2 hover:bg-orange"
+          className="mt-4 py-2 px-4 bg-orange text-white font-semibold rounded-lg hover:bg-white  hover:text-orange border  hover:border-orange  transition w-[55%]"
         >
           Book Now
         </button> 
-
         </div>
       </form>
     </div>

@@ -1,5 +1,6 @@
 import PackageData from '../PackageData/PackageData.json'
 import { useParams } from 'react-router-dom';
+
 export default function InfoGallery() {
   const { id } = useParams();
   const Countery = PackageData.find((e) => e.id === parseInt(id));

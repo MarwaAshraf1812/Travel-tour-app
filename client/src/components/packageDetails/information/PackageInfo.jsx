@@ -8,7 +8,7 @@ export default function PackageInfo() {
   const { name, Price, information, destination, departure, departure_time, return_time, dress_code, not_included, included } = Countery
   
   return (
-    <div className="md:w-2/3 w-full p-4">
+    <div className="md:w-full lg:w-2/3 w-full p-4 mb-8"> 
       <div className="flex flex-col gap-y-2 mb-8">
         <div className="flex flex-wrap items-center gap-4">
           <h2 className="text-2xl font-bold text-gray-800">{name}</h2>

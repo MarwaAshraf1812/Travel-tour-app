@@ -12,6 +12,7 @@
         "not_included": ["Gallery Ticket", "Lunch"],
         "included": ["5 star Accommodations", "Airport Transfer", "Breakfast", "Personal Guide"],
         "info_image": ["img1.png", "img2.png", "img3.png" ,  "img4.png" , "img5.png" , "img6.png"],
+        "Gallery":["img1.png", "img2.png", "img3.png", "img4.png", "img5.png", "img6.png" , "img7.png"],
         "plan":[
             {
                 "day": "01",
@@ -59,35 +60,36 @@
         "not_included": ["Dinner", "Transportation outside city"],
         "included": ["Hotel Accommodation", "City Tour", "Breakfast", "Guide"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
         "plan":[
             {
                 "day": 1,
-                "title": "Arrival and Exploration",
-                "description": "Explore the city, visit historical landmarks and local cafes.",
+                "title": "Ankunft und Erkundung",
+                "description": "Nach Ihrer Ankunft in Berlin und dem Einchecken in Ihrem 3-Sterne-Hotel, beginnen Sie den Tag mit einem gemütlichen Spaziergang durch die Stadt. Erkunden Sie die historische Architektur, besuchen Sie lokale Restaurants und probieren Sie typisch Berliner Gerichte. Der Tag endet mit einem entspannten Abendessen.",
                 "details":["3 Star Hotel" , "Dinner"]
             },
             {
                 "day": 2,
-                "title": "Cultural and Historical Tour",
-                "description": "Visit the Berlin Wall, Museum Island, and Brandenburg Gate.",
+                "title": "Kulturelle und historische Tour",
+                "description": "Nach dem Frühstück starten Sie mit einer Besichtigung der Berliner Mauer und ihrer geschichtsträchtigen Umgebung. Anschließend besuchen Sie die Museumsinsel, die zahlreiche Kunst- und Kulturschätze beherbergt. Beenden Sie den Tag mit einem Besuch des Brandenburger Tors, einem Symbol der deutschen Einheit.",
                 "details":["3 Star Hotel" , "Breakfast"]
             },
             {
                 "day": 3,
-                "title": "Shopping and Relaxing",
-                "description": "Explore local markets and shops in the Mitte district.",
+                "title": "Einkaufen und Entspannen",
+                "description": "Dieser Tag ist dem Einkaufen und Entspannen gewidmet. Erkunden Sie die kleinen Märkte und Boutiquen im Mitte-Viertel und gönnen Sie sich eine Auszeit in einem der charmanten Cafés der Stadt. Genießen Sie die entspannte Atmosphäre und entdecken Sie besondere Mitbringsel.",
                 "details":["3 Star Hotel" , "Lunch"]
             },
             {
                 "day": 4,
-                "title": "Museum Visits",
-                "description": "Tour the Berlin Museum and Pergamon Museum.",
+                "title": "Museumsbesuche",
+                "description": "Beginnen Sie den Tag mit einem Besuch im Berliner Museum, das spannende Einblicke in die Geschichte der Stadt bietet. Danach erkunden Sie das berühmte Pergamonmuseum, das für seine antiken Kunstwerke bekannt ist. Lassen Sie den Abend mit einem köstlichen Abendessen ausklingen.",
                 "details":["3 Star Hotel" , "Dinner"]
             },
             {
                 "day": 5,
-                "title": "Return",
-                "description": "Relax and depart for your return flight.",
+                "title": "Abreise",
+                "description": "Am letzten Tag genießen Sie ein entspanntes Frühstück und bereiten sich auf Ihre Abreise vor. Nutzen Sie die verbleibende Zeit, um die Stadt ein letztes Mal zu genießen, bevor Sie mit schönen Erinnerungen an Berlin die Heimreise antreten.",
                 "details":["3 Star Hotel" , "Breakfast"]
             }
         ] 
@@ -105,35 +107,36 @@
         "not_included": ["Spa", "Luxury activities"],
         "included": ["Overwater Villa Accommodation", "All-Inclusive Meals", "Guided Tours"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
         "plan": [
         {
             "day":  "01",
-            "title": "Arrival and Beach Relaxation",
-            "description": "Relax on the beach and explore the local area.",
+            "title": "Llegada y Relajación en la Playa",
+            "description": "Al llegar a Maldivas, serás recibido por la brisa del océano y vistas paradisíacas. Tras el check-in en tu lujosa villa sobre el agua, disfruta el resto del día relajándote en la playa. También puedes explorar los alrededores locales para sumergirte en la tranquilidad del lugar.",
             "details": ["Overwater Villa","Dinner"]
         },
         {
             "day":  "02",
-            "title": "Water Sports and Snorkeling",
-            "description": "Enjoy water sports activities and snorkeling.",
+            "title": "Deportes Acuáticos y Snorkel",
+            "description": "Comienza tu día con un delicioso desayuno en un entorno tropical único. Luego, prepárate para una jornada llena de aventuras acuáticas. Podrás practicar kayak, surf, esquí acuático o simplemente relajarte. Explora el mundo submarino con actividades de snorkel, admirando los vibrantes arrecifes de coral y los peces tropicales.",
             "details": ["Overwater Villa","Breakfast"]
         },
         {
             "day":  "03",
-            "title": "Spa and Wellness",
-            "description": "Indulge in a luxurious spa experience.",
+            "title": "Spa y Bienestar",
+            "description": "Despierta con el sonido de las olas y disfruta de un desayuno tranquilo. Dedica el día a consentirte con tratamientos de spa de lujo en el resort. Podrás elegir entre masajes relajantes, baños de vapor o terapias que te ayudarán a recargar energías en un ambiente sereno.",
             "details": ["Overwater Villa","Breakfast"]
         },
         {
             "day": "04",
-            "title": "Island Exploration",
-            "description": "Visit nearby islands and enjoy local cultural activities.",
+            "title": "Exploración de Islas",
+            "description": "Después del desayuno, embárcate en una excursión para descubrir islas cercanas. Tendrás la oportunidad de visitar aldeas locales y aprender sobre la cultura maldiva, así como disfrutar de la gastronomía tradicional. También podrás explorar pequeños mercados y llevarte recuerdos únicos de tu experiencia.",
             "details": ["Overwater Villa","Breakfast"]
         },
         {
             "day": "05",
-            "title": "Return",
-            "description": "Relax and prepare for your departure.",
+            "title": "Relajación y Preparativos para el Regreso",
+            "description": "En tu último día, disfruta de un desayuno en un entorno mágico. Relájate en tu villa o da un paseo por la playa para rememorar los momentos vividos durante tu estadía. Prepara tus maletas y alístate para el viaje de regreso, llevándote recuerdos inolvidables de Maldivas.",
             "details": ["Overwater Villa","Breakfast"]
         }
         ]
@@ -151,35 +154,36 @@
         "not_included": ["Lunche", "VIP seating"],
         "included": ["Accommodation", "Tour Guide", "Breakfast", "Group activities"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
         "plan": [
         {
             "day": "01",
-            "title": "Arrival and Tour of Downtown Toronto",
-            "description": "Explore the CN Tower, Royal Ontario Museum, and enjoy local cuisine.",
+            "title": "Arrival and Downtown Toronto Exploration",
+            "description": "Arrive in Toronto and check into your 3-star hotel. Visit the CN Tower for stunning views, explore the Royal Ontario Museum, and enjoy delicious local cuisine.",
             "details":["3 Star Hotel","Lunch"] 
         },
         {
             "day": "02",
             "title": "Explore Toronto Islands",
-            "description": "Take a ferry to the Toronto Islands and relax on the beach.",
+            "description": "Take a ferry to the Toronto Islands for a relaxing day on the beach and scenic walks. Enjoy the peaceful atmosphere away from the city buzz.",
             "details":["3 Star Hotel","Breakfast"]
         },
         {
             "day": "03",
             "title": "Visit Niagara Falls",
-            "description": "A day trip to Niagara Falls.",
+            "description": "Go on a full-day trip to Niagara Falls, experience its breathtaking views, and enjoy a boat tour. Explore nearby attractions before returning to Toronto.",
             "details":["3 Star Hotel","Lunch"]
         },
         {
             "day": "04",
             "title": "Shopping and Sightseeing",
-            "description": "Explore the Eaton Centre and nearby attractions.",
+            "description": "Spend the day exploring the Eaton Centre for shopping and visit nearby landmarks like Nathan Phillips Square and the Toronto sign.",
             "details":["3 Star Hotel","Breakfast"]
         },
         {
             "day": "05",
             "title": "Departure",
-            "description": "Relax and depart for your flight back.",
+            "description": "Relax on your last day before departing for your flight home, taking memories of Toronto with you.",
             "details":["3 Star Hotel","Breakfast"]
         }
         ]
@@ -197,6 +201,7 @@
         "not_included": ["Meals outside package"],
         "included": ["Accommodation", "City Tours", "Breakfast"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
         "plan": [
         {
             "day": "01",
@@ -243,6 +248,7 @@
         "not_included": ["VIP Seating"],
         "included": ["Accommodation", "Tours", "Breakfast"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
+        "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
         "plan": [
         {
             "day": "01",
