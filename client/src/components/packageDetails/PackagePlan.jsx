@@ -1,12 +1,14 @@
 import Line from '../../assets/PackageDetails/Plan/Line.png';
 import PackageData from './PackageData/PackageData.json'
 import { useParams } from 'react-router-dom'
+
 function PackagePlan() {
   const { id } = useParams();
   const Country = PackageData.find((e) => e.id === parseInt(id));
   const {plan} = Country;
+  
   return (
-    <div className="max-w-2xl  ">
+    <div className="max-w-2xl mb-8"> 
       <h2 className="text-3xl mb-7 font-bold font-Volkhov text-black ">Tour Plan</h2>
       {plan.map((day, index) => (
         <div key={index} className="relative flex items-start mb-8 pl-12">
