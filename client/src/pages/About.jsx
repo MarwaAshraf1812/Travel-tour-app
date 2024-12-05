@@ -9,7 +9,7 @@ import Gallery from '../components/aboutSections/Gallery/Gallery';
 import AboutHeroImage from '../assets/AboutHeroImage.png';
 export default function About() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <div>
         <AboutHero BigText={'About Us'} smallText={'READ'} image={AboutHeroImage} />
@@ -20,6 +20,6 @@ export default function About() {
         <Testmonial />
       </div>
       <Footer />
-    </>
+    </div>
   );
 }

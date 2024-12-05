@@ -15,7 +15,7 @@ function PackageDetails() {
   const [activeTab, setActiveTab] = useState('information')
 
   return (
-    <div className="relative">
+    <div className="relative w-full overflow-x-hidden">
       <Navbar />
       <AboutHero
         BigText={'Landscapes'}

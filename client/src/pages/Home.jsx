@@ -10,9 +10,9 @@ import Fast from "../components/sections/Fast/Fast";
 import Trendy from '../components/sections/Trendy/Trendy';
 export default function Home() {
   return (
-    <>
+    <div className="w-full overflow-x-hidden">
     <Navbar />
-    <div>
+    <div >
         <Hero />
     </div>
         <Category />
@@ -23,7 +23,7 @@ export default function Home() {
         <Trendy/>
         <Testmonial/>
         <Footer/>
-    </>
+    </div>
     
   )
 }
