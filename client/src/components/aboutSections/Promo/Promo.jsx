@@ -1,8 +1,14 @@
 import BgImage from '../../../assets/BgImage.png'
 import AboutImage from '../../../assets/AboutImage.png'
 import { Button } from '../../ui/button'
+import { useNavigate } from 'react-router-dom'
 
 function Promo() {
+  const navigate = useNavigate(); 
+
+  const handleClick = () => {
+    navigate('/about/packages');
+  }
   return (
     <div className="py-20 px-6 min-h-[700px] sm:min-h-[500px]">
       <div className="mx-auto max-w-6xl flex flex-col sm:flex-row relative py-9 h-full">
@@ -19,7 +25,9 @@ function Promo() {
             recusandae in maxime quasi aut ducimus illum aut optio quibusdam!
           </p>
           <div className="mt-4">
-            <Button className="bg-orange hover:text-orange hover:bg-white border hover:border-orange">View Packages</Button>
+            <Button
+              onClick={handleClick}
+            className="bg-orange hover:text-orange hover:bg-white border hover:border-orange">View Packages</Button>
           </div>
         </div>
 

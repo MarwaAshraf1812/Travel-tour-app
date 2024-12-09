@@ -11,7 +11,7 @@ function AboutHero(Props) {
     });
   }, []);
   return (
-    <div className="relative w-screen h-screen ">
+    <div className="relative w-full h-screen">
       <div className="absolute inset-0 w-full h-full">
         <img
           src={Props.image}

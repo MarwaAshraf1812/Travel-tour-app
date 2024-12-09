@@ -68,10 +68,10 @@ const Navbar = () => {
               )}
             </div>
             <Link
-              to="/contact"
+              to="/packages"
               className="relative text-white hover:text-orange px-3 py-2 rounded-md text-sm font-medium"
             >
-              Upcoming Packages
+              Packages
             </Link>
           </div>
           <div className="sm:hidden">

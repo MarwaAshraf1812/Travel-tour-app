@@ -11,6 +11,14 @@ import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
 import { useState } from 'react'
 
+
+const tabsConfig = [
+  { key: "information", label: "Information", icon: null },
+  { key: "plan", label: "Plan", icon: null },
+  { key: "location", label: "Location", icn: null },
+  { key: "gallery", label: "Gallery", icon: null },
+];
+
 function PackageDetails() {
   const [activeTab, setActiveTab] = useState('information')
 
@@ -26,6 +34,7 @@ function PackageDetails() {
         <PackageNavbar
           setActiveTab={setActiveTab}
           ActiveTab={activeTab}
+          tabsConfig={tabsConfig}
         />
         <div className="flex flex-col  lg:flex-row lg:space-x-6 p-8 my-2  ">
           {activeTab === 'information' && <PackageInfo />}
