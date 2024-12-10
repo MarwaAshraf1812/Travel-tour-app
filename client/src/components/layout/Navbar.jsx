@@ -97,8 +97,8 @@ const Navbar = () => {
             <Link to="/services" className="block text-white hover:bg-orange hover:text-white px-3 py-2 rounded-md text-base font-medium">
               Services
             </Link>
-            <Link to="/contact" className="block text-white hover:bg-orange hover:text-white px-3 py-2 rounded-md text-base font-medium">
-              Upcoming Packages
+            <Link to="/packages" className="block text-white hover:bg-orange hover:text-white px-3 py-2 rounded-md text-base font-medium">
+              Packages
             </Link>
           </div>
         )}
