@@ -4,7 +4,7 @@ import Trend from '../components/aboutSections/Trend/Trend';
 import Footer from '../components/layout/Footer';
 import Navbar from '../components/layout/Navbar';
 import Testmonial from '../components/sections/Testmonial';
-// import Banner from '../components/aboutSections/Banner/Banner';
+import Banner from '../components/aboutSections/Banner/Banner';
 import Gallery from '../components/aboutSections/Gallery/Gallery';
 import AboutHeroImage from '../assets/AboutHeroImage.png';
 export default function About() {
@@ -14,7 +14,7 @@ export default function About() {
       <div>
         <AboutHero BigText={'About Us'} smallText={'READ'} image={AboutHeroImage} />
         <Promo />
-        {/* <Banner /> */}
+        <Banner />
         <Trend />
         <Gallery />
         <Testmonial />

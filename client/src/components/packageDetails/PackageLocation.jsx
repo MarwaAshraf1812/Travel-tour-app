@@ -5,7 +5,7 @@ export default function PackageLocation() {
   const country = PackageData.find((e) => e.id === parseInt(id));
   const { coordinates, description } = country;
   return (
-    <div className='w-2/3'>
+    <div className='lg:w-2/3 w-full mb-11'>
       <h2 className="text-xl font-bold">Location</h2>
       <p className="text-gray-700">{description}</p>
       <div className="mt-4">

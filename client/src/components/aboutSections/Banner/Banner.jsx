@@ -1,9 +1,9 @@
 import WebFont from 'webfontloader';
-import vec from '../../../assets/Bannar/vector.png';
+import vec from '../../../assets/Bannar/Vector.png';
 import BannarImage from '../../../assets/Bannar/BannarImage.png';
 import { useState, useEffect } from 'react';
 
-function Banner() {
+export default function Banner() {
   useEffect(() => {
     WebFont.load({
       google: {
@@ -46,4 +46,3 @@ function Banner() {
   );
 }
 
-export default Banner;
