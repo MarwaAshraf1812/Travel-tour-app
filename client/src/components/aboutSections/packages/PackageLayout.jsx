@@ -3,10 +3,10 @@ import PackageNavbar from '../../common/PackageNavbar'
 import PackageCard from './PackageCard'
 import TripForm from '../../forms/TripForm'
 import Plane from '../../../assets/PackageDetails/plane.png'
-import Icon1 from '../../../assets/Packages/icon0.png'
-import Icon2 from '../../../assets/Packages/icon2.png'
-import Icon3 from '../../../assets/Packages/icon3.png'  
-import Icon4 from '../../../assets/Packages/icon4.png'
+import Icon1 from '../../../assets/Packages/Icon0.png'
+import Icon2 from '../../../assets/Packages/Icon2.png'
+import Icon3 from '../../../assets/Packages/Icon3.png'  
+import Icon4 from '../../../assets/Packages/Icon4.png'
 
 const dummyPackages = [
   {
