@@ -13,6 +13,8 @@
         "included": ["5 star Accommodations", "Airport Transfer", "Breakfast", "Personal Guide"],
         "info_image": ["img1.png", "img2.png", "img3.png" ,  "img4.png" , "img5.png" , "img6.png"],
         "Gallery":["img1.png", "img2.png", "img3.png", "img4.png", "img5.png", "img6.png" , "img7.png"],
+        "coordinates": { "lat": 46.8182, "lng": 8.2275 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium",
         "plan":[
             {
                 "day": "01",
@@ -61,6 +63,8 @@
         "included": ["Hotel Accommodation", "City Tour", "Breakfast", "Guide"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
         "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
+        "coordinates": { "lat": 52.52, "lng": 13.405 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium",
         "plan":[
             {
                 "day": 1,
@@ -108,6 +112,8 @@
         "included": ["Overwater Villa Accommodation", "All-Inclusive Meals", "Guided Tours"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
         "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
+        "coordinates": { "lat": 3.2028, "lng": 73.2207 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium.",
         "plan": [
         {
             "day":  "01",
@@ -155,6 +161,8 @@
         "included": ["Accommodation", "Tour Guide", "Breakfast", "Group activities"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
         "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
+        "coordinates": { "lat": 43.65107, "lng": -79.347015 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium",
         "plan": [
         {
             "day": "01",
@@ -202,6 +210,8 @@
         "included": ["Accommodation", "City Tours", "Breakfast"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
         "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
+        "coordinates": { "lat": 40.4093, "lng": 49.8671 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium",
         "plan": [
         {
             "day": "01",
@@ -249,6 +259,8 @@
         "included": ["Accommodation", "Tours", "Breakfast"],
         "info_image": ["img1.jpg", "img2.jpg", "img3.jpg" ,  "img4.jpg" , "img5.jpg" , "img6.jpg"],
         "Gallery":["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg" , "img7.jpg"],
+        "coordinates": { "lat": 35.86166, "lng": 104.195397 },
+        "description": "Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium",
         "plan": [
         {
             "day": "01",

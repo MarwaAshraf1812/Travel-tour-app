@@ -89,4 +89,3 @@ PackageNavbar.propTypes = {
     })
   ).isRequired,
 };
-
