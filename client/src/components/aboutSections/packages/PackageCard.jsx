@@ -1,8 +1,13 @@
 import PropTypes from 'prop-types';
+import { useNavigate  } from 'react-router-dom';
+function PackageCard({ image, date, people, title, description, price, rating ,id }) {
+  const navigate = useNavigate();
 
-function PackageCard({ image, date, people, title, description, price, rating }) {
+  const handleClick = () => {
+    navigate(`/packages/package/${id+1}`);
+  };
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer">
+    <div onClick={handleClick} className="bg-white rounded-lg shadow-md overflow-hidden hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer">
       <div className="w-full h-48 bg-gray-200 overflow-hidden">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
@@ -32,6 +37,7 @@ PackageCard.propTypes = {
   description: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
+  id: PropTypes.number.isRequired,
 };
 
 export default PackageCard;

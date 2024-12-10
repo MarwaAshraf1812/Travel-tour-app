@@ -9,14 +9,19 @@ import PackageLocation from '../components/packageDetails/PackageLocation'
 import PackageGallary from '../components/packageDetails/PackageGallary'
 import Navbar from '../components/layout/Navbar'
 import Footer from '../components/layout/Footer'
+import infoIcon from '../assets/PackageDetails/bi_info-circle.png'
+import locIcon from '../assets/PackageDetails/akar-icons_location.png'
+import GalleryIcon from '../assets/PackageDetails/clarity_image-gallery-line.png'
+import planIcon from '../assets/PackageDetails/Vector.png'
+
 import { useState } from 'react'
 
 
 const tabsConfig = [
-  { key: "information", label: "Information", icon: null },
-  { key: "plan", label: "Plan", icon: null },
-  { key: "location", label: "Location", icn: null },
-  { key: "gallery", label: "Gallery", icon: null },
+  { key: 'information', label: "Information", icon: infoIcon },
+  { key: 'plan', label: "Plan", icon: planIcon },
+  { key: 'location', label: "Location", icon: locIcon },
+  { key: 'gallery', label: "Gallery", icon: GalleryIcon },
 ];
 
 function PackageDetails() {
@@ -33,10 +38,10 @@ function PackageDetails() {
       <div className=" h-[80%] relative -top-16 left-1/2 transform -translate-x-1/2 w-full max-w-7xl md:max-w-7xl bg-white shadow-lg z-40">
         <PackageNavbar
           setActiveTab={setActiveTab}
-          ActiveTab={activeTab}
+          activeTab={activeTab}
           tabsConfig={tabsConfig}
         />
-        <div className="flex flex-col  lg:flex-row lg:space-x-6 p-8 my-2  ">
+        <div className="flex flex-col  lg:flex-row lg:space-x-6 p-8 my-2 lg:justify-between ">
           {activeTab === 'information' && <PackageInfo />}
           {activeTab === 'plan' && <PackagePlan />}
           {activeTab === 'location' && <PackageLocation />}
